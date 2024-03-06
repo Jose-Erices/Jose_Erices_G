@@ -1,0 +1,28 @@
+.itemImg{
+    width: 150px;
+    height: 150px;
+    border: 2px solid orange;
+    border-radius: 5px 5px 5px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px;
+    margin: 5px;
+}
+.container:hover{
+    background-color: orange;
+}
+
+.titulo3{
+    color:black;
+   text-decoration: none;
+ 
+   
+}

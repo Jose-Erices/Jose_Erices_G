@@ -1,0 +1,39 @@
+
+ /* boton -*/
+ .Count1{ 
+
+    margin-left: 10%;
+    margin-top: 37px; 
+    position: fixed;
+    padding: -10PX;   
+      
+  }
+  
+   /* Contador */
+  .Count2{
+      text-align: center;
+     
+     
+  }
+  
+   /* boton +*/
+  .Count3{
+      position: fixed;
+      text-align: center;
+      margin-top: -20%;
+      margin: 2px;
+    
+  }
+  /* boton Agregar al Carrito*/
+  .Count4{
+      position: fixed;
+      text-align: center;
+      margin: 2px;
+      top: auto;
+      
+  }
+
+
+  /* {cart.map((p)=>(
+    <CartItem key={p.id} producto={p} ComprarProducto={ComprarProducto}/>
+))} */
