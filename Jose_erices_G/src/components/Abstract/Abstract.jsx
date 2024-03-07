@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
-import Select from './Select';
-import Radio from './Radio';
+import Select from '../Select/Select';
+import Radio from '../Radio/Radio';
 
 const Abstract = () => {
 
