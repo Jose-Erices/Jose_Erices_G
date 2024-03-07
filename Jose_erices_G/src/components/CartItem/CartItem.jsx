@@ -1,6 +1,6 @@
 import React from 'react';
 import './CartItem.css'
-import ComponenteFuncional from './ComponenteFuncional';
+import ComponenteFuncional from '../ComponenteFuncional/ComponenteFuncional';
 
 
 
