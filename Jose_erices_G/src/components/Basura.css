@@ -37,3 +37,31 @@
   /* {cart.map((p)=>(
     <CartItem key={p.id} producto={p} ComprarProducto={ComprarProducto}/>
 ))} */
+
+
+/* 
+// collection filtrada
+
+const [products,setProducts] = useState([])
+
+useEffect(()=>{
+   const db = getFirestore()
+   const q = query  (
+    collection(db, "Item1"),
+    where("precio", "<=", 3000)
+   )
+
+getDocs(q).then((snapshot)=>{
+
+  if(snapshot.size ===0){
+    console.log("No hay Resultados")
+  }
+
+  setProducts(snapshot.docs.map((doc) => (
+    {id: doc.id,...doc.data()}
+
+  )))
+
+
+}, [] )
+console.log(products) */
