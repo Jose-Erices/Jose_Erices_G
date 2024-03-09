@@ -12,7 +12,10 @@ import Abstract from './components/Abstract/Abstract';
 import Cart from './components/Cart/Cart';
 import ThemeProvider from './context/ThemeContext';
 import DarkComponent from './components/DarkComponent/DarkComponent';
+
 import CartProvider from './context/CartContext';
+import Checkout from './components/Checkout/Checkout';
+
 // import {getFirestore, doc, getDoc } from 'firebase/firestore';
 // import {getFirestore, collection, getDocs} from 'firebase/firestore';
 // import { getFirestore, collection, getDocs, query, where} from 'firebase/firestore';
@@ -44,6 +47,9 @@ const App = () => {
           <Route path='/detalle/:id' element={<ItemDetailContainer/>}/>
 
           <Route path='/cart' element={<Cart/>}/>
+
+          <Route path='/checkout' element={<Checkout/>}/>
+        
           
           <Route path='*' element={<Error/>}/>
 
